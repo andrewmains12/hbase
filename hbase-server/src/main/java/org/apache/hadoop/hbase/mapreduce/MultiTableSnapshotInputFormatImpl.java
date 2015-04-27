@@ -47,7 +47,7 @@ import java.util.UUID;
  * .MultiTableSnapshotInputFormat} and mapred
  * ({@link org.apache.hadoop.hbase.mapred.MultiTableSnapshotInputFormat} implementations.
  */
-@InterfaceAudience.Public
+@InterfaceAudience.LimitedPrivate({ "HBase" })
 @InterfaceStability.Evolving
 public class MultiTableSnapshotInputFormatImpl {
 
